@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+   <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+    <!-- ================== HEADER=========-->
+     <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <img src="https://png.pngtree.com/png-vector/20250124/ourmid/pngtree-mouth-watering-pepperoni-pizza-slice-png-image_15317290.png" alt="image">
+                pizza
+            </a>
+            <div class="nav__menu" id="nav-menu"> 
+                <ul class="nav__list">
+                    <li>
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about" class="nav__link">About Us</a>
+                    </li>
+                    <li>
+                        <a href="#popular" class="nav__link">Popular</a>
+                    </li>
+                    <li>
+                        <a href="#products" class="nav__link">Products</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+                <!--Close button-->
+                <div class="nav__close" id="nav-close">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </div>
+                <!--Toggle button-->
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="fa-solid fa-arrows-to-dot"></i>
+                </div>
+             
+
+        </nav>
+     </header>
+
+
+     <!---======================= MAIN===============-->
+     <main class="main">     
+        <section class="home section" id="home">
+          <div class="home__container container grid">
+                <div class="home__data">
+                     <h1 class="home__title">Crispy And <br> Delicious Pizzas</h1>
+
+                     <p class="home__description">
+                        Order the best pizzas to and your hunger and make your family moments more memorable, place your order now.
+                     </p>
+
+                     <a href="#products" class="button">Order Pizza Now</a>
+
+                     <img src="https://cdn-icons-png.flaticon.com/512/6347/6347375.png" alt="image" class="home__sticker-1">
+                     <img src="https://assets.dochipo.com/editor/stickers/leaves/434c1eeb-28a5-4e33-b35d-9e7628167176.png" alt="image" class="home__sticker-2">
+                </div>
+
+                <div class="home__images">
+                    <img src="https://png.pngtree.com/png-clipart/20240924/original/pngtree-tempting-closeup-of-a-chicken-pizza-with-gourmet-ingredients-png-image_16083303.png" alt="image" class="home__pizza">
+                   
+                    
+                </div>
+            </div>
+        </section>
+
+        <!--========================= ABOUT==================-->
+        <section class="about section" id="about">
+            <div class="about__container container grid">
+                <div class="about__data">
+                     <h2 class="section__title">Learn More About <br> Our History</h2>
+
+                     <p class="about__description">
+                        The secret to success is the best ingredients to make a better pizza. Today strive for perfection, just as we have been doing for 15 Years when we first opened the pizzeria in Lima -  Peru.
+                     </p>
+
+                     <a href="#popular" class="button"> The Best Pizzas</a>
+                     <img src="https://cdn-icons-png.flaticon.com/256/7511/7511404.png" alt="image" class="about__sticker">
+                </div>
+
+                <img src="https://png.pngtree.com/png-clipart/20250106/original/pngtree-yummy-stretchy-cheese-pepperoni-pizza-png-image_19960043.png" alt="image" class="about__img">
+            </div>
+        </section>
+
+        <!--=============================== POPULAR============================-->
+        <section class="popular section" id="popular">
+          
+              <div class="home__container container grid">
+                <div class="popular__data">
+                     <h2 class="section__title">Discover <br> Popular Orders</h2>
+
+                     <p class="popular__description">
+                        Select the best prepared and delicious flavors We have collected some popular recipes from around the world for to chose your favorite
+                     </p>
+                </div>
+
+                <div class="popular__swiper swiper">
+                    
+
+                    <div class="swiper-wrapper">
+                    <article class="popular__card swiper-slide"> 
+                        <img src="https://png.pngtree.com/png-clipart/20230930/original/pngtree-pizza-png-image_13019420.png" alt="image" class="popular__img">
+                        <h3 class="popular__title">Margherita Pizza</h3>
+                    </article>
+
+                    <article class="popular__card swiper-slide"> 
+                        <img src="https://png.pngtree.com/png-clipart/20240806/original/pngtree-pizza-png-image_15719089.png" alt="image" class="popular__img">
+                        <h3 class="popular__title">Mushroom Pizza</h3>
+                    </article>
+
+                    <article class="popular__card swiper-slide"> 
+                        <img src="https://static.vecteezy.com/system/resources/previews/024/589/160/non_2x/top-view-pizza-with-ai-generated-free-png.png" alt="image" class="popular__img">
+                        <h3 class="popular__title"> Pepperoni Pizza</h3>
+                    </article>
+                      
+
+                      
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--=========================== RECIPE=========================-->
+        <section class="recipe section">
+            <h2 class="section__title">Fresh And <br> Natural Ingredients</h2>
+
+            <div class="recipe__container container grid">
+                <div class="recipe__list grid">
+                    <div class="recipe__ingredient">
+                        <img src="https://static.vecteezy.com/system/resources/previews/065/587/120/non_2x/bowl-of-flour-on-a-white-background-perfect-for-baking-and-cooking-needs-bowl-of-flour-isolated-on-white-background-free-png.png" alt="image" class="recipe__image">
+                        <div>
+                            <h3 class="recipe__name">Flour</h3>
+                            <p class="recipe__description">The best wheat from the field for the best flour.</p>
+                        </div>
+                    </div>
+
+                       <div class="recipe__ingredient">
+                        <img src="https://png.pngtree.com/png-clipart/20241122/original/pngtree-yellow-cheese-png-image_17284281.png" alt="image" class="recipe__image">
+                        <div>
+                            <h3 class="recipe__name">Cheese</h3>
+                            <p class="recipe__description">Indulge in cheese for healthy future.</p>
+                        </div>
+                    </div>
+                      <div class="recipe__ingredient">
+                        <img src="https://png.pngtree.com/png-vector/20241123/ourmid/pngtree-tomato-ketchup-in-a-ribbed-white-ceramic-ramekin-png-image_14546825.png" alt="image" class="recipe__image">
+                        <div>
+                            <h3 class="recipe__name">Sauces</h3>
+                            <p class="recipe__description">Add touch of salsa to your life and it will taste better.</p>
+                        </div>
+                    </div>
+                       <div class="recipe__ingredient">
+                        <img src="https://png.pngtree.com/png-vector/20240128/ourmid/pngtree-tomatoes-bowl-food-fruit-healthy-nutrition-ripe-with-blank-background-png-image_11508433.png" alt="image" class="recipe__image">
+                        <div>
+                            <h3 class="recipe__name">Vegetables</h3>
+                            <p class="recipe__description">Vegetables full of the essence of nature and organic.</p>
+                        </div>
+                    </div> 
+                      <div class="recipe__ingredient">
+                        <img src="https://png.pngtree.com/png-clipart/20240316/original/pngtree-beef-png-image_14603784.png" alt="image" class="recipe__image">
+                        <div>
+                            <h3 class="recipe__name">Meats</h3>
+                            <p class="recipe__description">The best fresh meats for your health.</p>
+                        </div>
+                    </div> 
+                </div>
+
+                <img src="https://caspian.pizza/wp-content/uploads/2022/07/pizza.png" alt="image" class="recipe__img">
+            </div>
+        </section>
+
+        <!--======================== PRODUCTS=================-->
+        <section class="products section" id="products">
+  <h2 class="section__title">The Most <br> Devoured Pizzas</h2>
+
+  <div class="products__container contaiidner grid">
+    
+    <article class="products__card">
+      <img src="https://pizzafactory.lk/wp-content/uploads/2017/08/margherita-600x400.png" alt="Vegetarian Pizza" class="products__img">
+      <h3 class="products__name">Vegetarian <br> Pizza</h3>
+      <span class="products__price">$15</span>
+      <button class="products__button">
+        <i class="fa-solid fa-bag-shopping"></i>
+      </button>
+    </article>
+
+    <article class="products__card">
+      <img src="https://halifax.nayyapizza.ca/wp-content/uploads/2023/05/margherita_ricotta-removebg-preview.png" alt="Pepperoni Pizza" class="products__img">
+      <h3 class="products__name">Pepperoni <br> Pizza</h3>
+      <span class="products__price">$10</span>
+      <button class="products__button">
+        <i class="fa-solid fa-bag-shopping"></i>
+      </button>
+    </article>
+
+    <article class="products__card">
+      <img src="https://png.pngtree.com/png-clipart/20241015/original/pngtree-classic-margherita-pizza-delight-authentic-italian-recipe-perfection-isolated-png-image_16327529.png" alt="Margherita Pizza" class="products__img">
+      <h3 class="products__name">Margherita <br> Pizza</h3>
+      <span class="products__price">$12</span>
+      <button class="products__button"> 
+        <i class="fa-solid fa-bag-shopping"></i>
+      </button>
+    </article>
+
+    <article class="products__card">
+      <img src="https://kestepizzago.com/cdn/shop/files/Margherita.png?v=1684443293" alt="Mushroom Pizza" class="products__img">
+      <h3 class="products__name">Mushroom <br> Pizza</h3>
+      <span class="products__price">$17</span>
+      <button class="products__button">
+        <i class="fa-solid fa-bag-shopping"></i>
+      </button>
+    </article>
+
+    <article class="products__card">
+      <img src="https://static.vecteezy.com/system/resources/previews/046/542/864/non_2x/delicious-neapolitan-pizza-isolated-on-transparent-background-free-png.png" alt="Italian Pizza" class="products__img">
+      <h3 class="products__name">Italian <br> Pizza</h3>
+      <span class="products__price">$10</span>
+      <button class="products__button">
+        <i class="fa-solid fa-bag-shopping"></i>
+      </button>
+    </article>
+
+  </div>
+</section>
+
+<!--====================section================= -->
+<section class="contact section" id="contact">
+    <div class="contact__container container grid">
+        <div class="contact__data">
+               <h2 class="section__title">Contact Now</h2>
+
+               <div class="contact__info grid">
+                <div>
+                    <h3 class="contact__title">Write Us</h3>
+                    <div class="contact__social">
+                        <a href="" target="_blank" class="contact__social-link"><i class="fa-brands fa-whatsapp"></i></a>
+
+                        <a href="" target="_blank" class="contact__social-link"><i class="fa-brands fa-facebook-messenger"></i></a>
+
+                        <a href="" target="_blank" class="contact__social-link"><i class="fa-brands fa-telegram"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="contact__title">Delivery</h3>
+
+                    <address class="contact__address">
+                        +00-987-7654-321 <br> +11-0125475
+                    </address>
+                </div>
+                <div>
+                    <h3 class="contact__title">Location</h3>
+
+                    <address class="contact__address">
+                        Lima - Sun City - Peru <br> Av. Moon #4321
+                    </address>
+
+                    <a href="" target="_blank" class="contact__map"><i class="fa-solid fa-location-dot"></i>
+                    <span>View On Map</span>
+                </a>
+
+                </div>
+               </div>
+        </div>
+
+        <div class="contact__image">
+               <img src="https://superpizzapan.com.br/wp-content/uploads/2024/04/super-vegetariana.png" alt="image" class="contact__img">
+        </div>
+
+        <img src="https://png.pngtree.com/png-vector/20230225/ourmid/pngtree-tomato-line-icon-png-image_6618938.png" alt="image" class="contact__sticker-1">
+        <img src="https://images.creativefabrica.com/products/thumbnails/2024/03/11/915JYn9Oh/2dXQ7ucRp0KX8kkwUwWN33gxN6D.png" alt="image" class="contact__sticker-2">
+        <img src="https://cdn-icons-png.flaticon.com/512/4835/4835813.png" alt="image" class="contact__sticker-3">
+    </div>
+</section>
+ </main>
+
+ <!--=================== FOOTER================-->
+        <footer class="footer">
+            <div class="footer__container container grid">
+                <div class="footer__content geid">
+                <a href="" class="footer__logo">Pizza</a>
+
+                
+                    <div>
+                        <h3 class="footer__title">Social </h3>
+
+                        <div class="footer__social">
+                            <a href="" target="_blank" class="footer__social-link"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="" target="_blank" class="footer__social-link"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="" target="_blank" class="footer__social-link"><i class="fa-brands fa-x-twitter"></i></a>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="footer__title">Payment Methods </h3>
+
+                        <div class="footer__pay">
+                            <img src="https://online-casinocz.com/wp-content/uploads/2025/01/visa.png" alt="image" class="footer__pay-img">
+                            <img src="https://cdn-icons-png.freepik.com/256/189/189392.png?semt=ais_white_label" alt="image" class="footer__pay-img">
+                            <img src="https://routenote.com/blog/wp-content/uploads/2019/03/PayPal-transfers.png" alt="image" class="footer__pay-img">
+                            <img src="https://companiesmarketcap.com/img/company-logos/256/DFS.png" alt="image" class="footer__pay-img">
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="footer__title"> Subscribe For Discounts</h3>
+
+                        <form action="" class="footer__form">
+                            <input type="email" placeholder="Email" class="footer__input">
+                            <button class="footer__button button">
+                                Subscribe
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>  
+            
+            <div class="footer__policy">
+                <a href="#" class="footer__link">Terms & Agreements</a>
+                <a href="#" class="footer__link">Privacy Policy</a>
+            </div>
+
+            <span class="footer__copy">&copy; 2025 Pizza. All rights reserved.</span>
+
+        </footer>
+
+
+        <!--====================SCROLL UP ====================-->
+
+        <a href="#" class="scrollup" id="scroll-up"><i class="fa-solid fa-arrow-up"></i></a>
+
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <script src="assets/js/scrollreveal.min.js"></script>
+     
+    <script src="texts.js"></script>
+
+    
+</body>
+</html>  
